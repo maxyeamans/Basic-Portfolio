@@ -1,0 +1,22 @@
+body {
+    background: lightgray;    
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: teal;
+}
+
+#name {
+    color: white;
+    background: teal;
+    padding: 15px;
+}
+
