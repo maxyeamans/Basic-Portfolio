@@ -8,6 +8,7 @@ body {
     background: lightgray;    
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
     font-size: 16px;
     line-height: 150%;
 }
@@ -15,32 +16,18 @@ body {
 header {
     border: black 1px solid;
     width: 960px;
-    background-color: white;
-}
-
-article {
-    clear: both;
-}
-
-.container {
-    border: black 1px solid;
-    width: 960px;
-    margin: 0 auto;
-}
-
-h1 {
-    border: black 1px solid;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px;
-    color: teal;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
 }
 
 nav {
     border: black 1px solid;
     float: right;
     padding: 15px;
+}
+
+article {
+    clear: both;
+    background: #ffffff;
 }
 
 section {
@@ -52,12 +39,52 @@ footer {
     clear: both;
 }
 
+h1 {
+    border: black 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 24px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+    padding: 5px;
+}
+
+td {
+    position: relative;
+    padding: 10px;
+}
+
+/* .projectPic {
+    position: relative;
+} */
+
+.projectTitle {
+    padding: 5px 0px;
+    position: absolute;
+    bottom: 30px;
+    margin: 0px;    
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 200px;
+}
+
+.container {
+    border: black 1px solid;
+    width: 960px;
+    margin: 0 auto;
+}
+
 #pageTopic {
     margin-top: 0px;
     margin-bottom: 0px;
     border: black 1px solid;
-    color: white;
-    background: teal;
+    color: #ffffff;
+    background: #4aaaa5;
     float:left;
 }
 
