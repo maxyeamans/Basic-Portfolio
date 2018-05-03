@@ -14,16 +14,15 @@ body {
 }
 
 header {
-    /* margin: 0 auto; */
     height: auto;
-    /* border: black 1px solid; */
     border-bottom: #cccccc 3px solid;
     background-color: #ffffff;
 }
 
 nav {
-    /* border: black 1px solid; */
-    /* float: right; */
+    /*
+    float: right;
+    */
     padding: 15px;
 }
 
@@ -46,7 +45,6 @@ footer {
 }
 
 h1 {
-    /* border: black 1px solid; */
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px;
@@ -81,16 +79,13 @@ td {
 }
 
 .container {
-    /* border: black 1px solid; */
     width: 960px;
     margin: 0 auto;
-    /* background-color: #ffffff; */
 }
 
 #pageTopic {
     margin-top: 0px;
     margin-bottom: 0px;
-    /* border: black 1px solid; */
     color: #ffffff;
     background: #4aaaa5;
     float:left;
@@ -98,11 +93,6 @@ td {
 
 #profilePic {
     margin: 20px;
-    /* border: black 1px solid; */
     float: left;
 }
-
-/* #bio {
-    float: right;
-} */
 
