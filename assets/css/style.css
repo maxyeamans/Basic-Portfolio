@@ -63,6 +63,19 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #777777;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #c4c4c4;
+}
+
 p {
     padding: 5px;
 }
@@ -87,6 +100,10 @@ td {
     color: #ffffff;
     text-align: center;
     width: 200px;
+}
+
+.projectTitle:hover {
+    background: #008080;
 }
 
 .container {
